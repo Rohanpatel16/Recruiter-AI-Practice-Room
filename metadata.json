@@ -1,0 +1,7 @@
+{
+  "name": "Recruiter AI Practice Room",
+  "description": "An application for recruiters to practice interviewing skills with an AI-powered candidate. Features include AI persona generation, real-time conversational practice using the Gemini Live API, and post-interview performance feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
