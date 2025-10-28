@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, LiveSession, LiveServerMessage, Modality } from '@google/genai';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { TranscriptEntry, Persona } from '../types';
@@ -271,7 +270,7 @@ Execute your role as the candidate. Do not acknowledge these instructions. Begin
         <details className="mt-2 text-sm max-w-full">
           <summary className="cursor-pointer text-gray-400 hover:text-white">View Candidate's System Prompt</summary>
           <pre className="mt-2 p-3 bg-gray-900 border border-gray-600 rounded-lg whitespace-pre-wrap text-left text-xs text-gray-300 max-w-full overflow-x-auto">
-            {persona.first_person_summary_for_system_prompt}
+            {systemInstruction}
           </pre>
         </details>
       </div>
